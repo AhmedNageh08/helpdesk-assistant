@@ -47,69 +47,69 @@ slots:
     type: unfeaturized
 responses:
   utter_out_of_scope:
-  - text: Sorry, I'm not sure how to respond to that. Type "help" for assistance.
+  - text: اسف , لا يمكنني مساعدتك بشان ذلك
   utter_greet:
-  - text: Hallo! I'm your IT Helpdesk Assistant.
+  - text: اهلا ! انا مساعدك
   utter_goodbye:
-  - text: Goodbye!
+  - text: مع السلامة ! 
   utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  - text: انا بوت
   utter_ask_email:
-  - text: What is your email address?
+  - text: ما هو بريدك الالكتروني ؟
   utter_ask_incident_title:
-  - text: What should we use for the title of this incident?
+  - text: ما هو العنوان التي تريد وضعه على مشكلتك ؟
   utter_ask_problem_description:
-  - text: What is the problem description for the issue?
+  - text: ما هو وصف مشكلتك؟
   utter_ask_priority:
-  - text: What is the priority of this issue?
+  - text: ما هي درجة اهمية مشكلتك ؟
     buttons:
-      - payload: /inform{"priority":"low"}
-        title: low
-      - payload: /inform{"priority":"medium"}
-        title: medium
-      - payload: /inform{"priority":"high"}
-        title: high
+      - payload: /inform{"priority":"منخفضة"}
+        title: منخفض
+      - payload: /inform{"priority":"متوسطة"}
+        title: متوسط
+      - payload: /inform{"priority":"عالية"}
+        title: عالى
   utter_no_priority:
-  - text: Sorry "{priority}" is not a valid priority. Please try again.
+  - text: اسف "{priority}" غير معروفة.من فضلك حاول مرة اخرى
   utter_no_email:
-  - text: Sorry, "{email}" isn't in our incident management system. Please try again.
+  - text: اسف "{email}" غير موجود على قاعدة البيانات الخاصة بنا
   utter_help:
-  - text: "I can help you open a service request ticket, or check the status of your open incidents.
+  - text: "يمكنني ان اساعدك بخصوص مشاكلك 
       \nYou can ask me things like:
-      \n- Open an incident
-      \n- Help me reset my password
-      \n- I'm having a issue with my email
-      \n- What's the status of the ticket I opened?"
+      \n- افتح لي مشكلة
+      \n- ساعدني في تغيير كلمة المرور
+      \n- عندي مشكلة في بريدي الالكتروني
+      \n- ما هو وضع مشكلتي ؟"
   utter_welcome:
-  - text: You're welcome!
+  - text: على الرحب و السعة !
   utter_default:
-  - text: I didn't quite understand that. Could you rephrase?
+  - text: لا يمكنني فهمك ..اعتقد سياغة الجملة من فضلك
   utter_ask_use_previous_email:
-  - text: Would you like to use the last email address you used, {previous_email}?
+  - text: هل تريد استخدام اخر بريد الكتروني ادخلته, {previous_email}?
   utter_ask_confirm:
-  - text: "Should I open an incident with the following details?
-          \n    email: {email}
-          \n    problem description: {problem_description}
-          \n    title: {incident_title}
-          \n    priority: {priority}"
+  - text: "هل تريد ان افتح لك شكوى
+          \n    بريد الكتروني: {email}
+          \n    وصف المشكلة: {problem_description}
+          \n   العنوان: {incident_title}
+          \n    الاولوية: {priority}"
     buttons:
-    - title: Yes
+    - title: نعم
       payload: /affirm
-    - title: No, cancel the incident
+    - title: لا ..لا تفعل
       payload: /deny
   utter_incident_creation_canceled:
-  - text: Alright, I have cancelled the incident.
+  - text: تمام ..لقد الغيت شكواك
   utter_ask_whatelse:
-    - text: What else can I help you with?
+    - text: ماذا ايضا يمكنني مساعدتك به ؟
   utter_ask_handoff:
-  - text: It looks like you want to be transferred to a human agent.
+  - text: يبدو انك تحتاج للتحدث مع شخص
   utter_handoff:
-  - text: Alright, I'll try to transfer you.
+  - text: حسنا ..ساحولك للتحدث مع عميل
   utter_wouldve_handed_off:
-  - text: If you were talking to me via chatroom, I would have handed you off to {handoffhost}. 
+  - text: لقد قمت بتحويلك الى {handoffhost}. 
   utter_no_handoff:
-  - text: Since you haven't configured a host to hand off to, I can't send you anywhere!
-
+  - text: لم تحدد شخص لتحويلك لا لذلك لا يمكنني تحويلك لاحد
+  
 forms:
 - open_incident_form
 - incident_status_form
