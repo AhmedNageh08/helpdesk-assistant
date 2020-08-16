@@ -1,12 +1,11 @@
 ## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-- hi there
-- hello there
+- هاي
+- اهلا
+- السلام عليكم
+- صباح الخير
+- مساء الخير
+- اهلا بك
+- هالو
 
 ## intent:goodbye
 - bye
