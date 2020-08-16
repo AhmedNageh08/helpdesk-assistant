@@ -104,49 +104,49 @@
 - في يوم من الاسبوع نحن ؟
 
 ## intent:incident_status
-- I want to check if my ticket has been closed
-- what's the status of my incident?
-- Has the incident been closed yet?
-- Is my ticket in progress?
-- What has happened with my open ticket?
-- what's going on with the incident I opened?
-- Do I have any open incidents at the moment?
-- Can I check the status of my open tickets?
-- Can I see the status of the ticket I opened?
-- Check ticket status
-- check incident status
-- ok, try looking it up for abraham.lincoln@example.com 
-- look up ticket status for abel.tuter@example.com
+- هل اغلقت الشكوى؟
+- ما وضع الشكوى ؟
+- الى اين وصلت الشكوى الان ؟
+- ما اخر المستجدات في الشكوى؟
+- ماذا في الشكوى الخاصة بي؟
+- ماذا حدث في مشكلتي؟
+- هل هناك مستجدات في الشكوى؟
+- ما وضع الشكوى الخاصة بي؟
+- اعرضلي وضع الشكوى الخاصة بي
+- وضع الشكوى
+- وضع المشكلة
+- ما وضع المشكلة الخاصة بالبريد ahmed@example.com
+- ابحث عن الشكوى الخاصة بي
 
 ## intent:affirm
-- yes
-- yes please
-- yes I would 
-- please do
-- yup
-- yep
-- that's right
-- indeed
-- Yes, please
-- yeah
-- sure
-- yes thanks
+- نعم
+- نعم من فضلك
+- نعم بالطبع
+- نعم ارجوك
+- اكيد
+- طبعا
+- هذا صحيح
+- بالطبع
+- نعم , من فضلك
+- ايوة
+- بالتاكيد
+- نعم شكرا
 
 ## intent:deny
-- no
-- nope
-- no thanks
-- not that one
-- don't use that
-- please no
-- no don't do that
-- no, use abraham.lincoln@example.com
+- لا
+- لا شكرا
+- لا من فضلك
+- لا ليس كذلك
+- لا تستخدم ذلك
+- لا تفعل ذلك
+- لا لا 
+- لا تقم به
 
 ## intent:human_handoff
-- I want a human 
-- can I speak to an agent
-- real agent please
-- real human 
-- chat with a live agent
-- give me a person please
-- i want to talk to a human
+- اريد شخص
+- هل يمكنني التحدث لعميل
+- عميل حقيقي من فضلك
+- شخص حقيقي
+- التحدث لشخص حقيقي
+- حولني لشخص
+- اود التحدث لشخص
