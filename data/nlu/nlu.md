@@ -1,61 +1,61 @@
 ## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-- hi there
-- hello there
+- هاي
+- اهلا
+- السلام عليكم
+- صباح الخير
+- مساء الخير
+- اهلا بك
+- هالو
+
 
 ## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
-- see ya
-- buh bye
+- باي
+- مع السلامة
+- اراك فيما بعد
+- اراك لاحقا
+- اراك قريبا
+- باي باي
 
 ## intent:thank
-- thanks!
-- thank you
-- thanks a lot
-- great thanks
-- appreciate it
-- cool thanks
+- شكرا !
+- شكرا لك
+- شكرا جزيلا
+- تمام شكرا
+- شكرا 
+- شكرا جدا
 
 ## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
-- you are a bot right
-- aren't you a bot
+- هل انت بوت؟
+- هل انت شخص؟
+- هل اتحدث مع بوت؟
+- هل اتحدث مع شخص؟
+- انت بوت صحيح ؟
+- اليس انت بوت؟
 
 ## intent:password_reset
-- need to reset my password
-- need help resetting my password
-- I can't reset my password
-- need help with my password
-- having issues resetting my password
-- freaking password won't work
-- reset my password
-- password reset
-- forgot my password and can't reset it
+- اريد تعديل الباسورد الخاص بي
+- احتاج مساعدتك لتغيير الرقم السري
+- لا استطيع كلمة المرور
+- احتاج لمساعدتك في كلمة المرور
+- تغيير كلمة المرور
+- قم بتغيير كلمة المرور
+- اعادة تعديل كلمة المرور
+- نسيت كلمة المرور قم بتغييره
+- تغيير الباسورد
 
 ## intent:open_incident
-- I need to open an incident
-- Can you open a case for me
-- I have an issue I need to open a incident for
-- open incident
-- can you help me open a incident please
-- I want to open a new incident
-- I want to open a incident
-- I'm having a weird issue.
-- I'm having a problem
-- I'm having a issue I need to open a incident for.
-- I have a issue I need to open a case for.
-- open an incident for aileen.mottern@example.com
+- عندي شكوى
+- احتاج لفتح شكوى
+- لدي مشكلة احتاج لفتح شكوى بها
+- افتح شكوى
+- هل يمكنك مساعدتي في مشكلتي من فضلك
+- افتحلي شكوى
+- اريد فتح شكوى
+- لدي مشكلة غريبة
+- لدي مشكلة
+- عندي مشكلة
+- اود الابلاغ عن شكوى
+- اود الابلاغ عن شكوى عبر بريد الكتروني example@gmail.com
 - open an [urgent]{"entity": "priority", "value": "high"} issue
 - I want to open an incident, but it's [low](priority) priority
 - I need to open a helpdesk ticket. it's [really important]{"entity": "priority", "value": "high"}
