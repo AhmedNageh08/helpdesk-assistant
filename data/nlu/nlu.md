@@ -57,54 +57,51 @@
 - اود الابلاغ عن شكوى عبر بريد الكتروني example@gmail.com
 
 ## intent:help
-- I need help
-- what can you help me with
-- can you help me
-- what can you do
-- I need some help
-- help me
-- can you please help me
+- احتاج مساعدتك
+- كيف يمكنك مساعدتي
+- هل يمكنك مساعدتي
+- ماذا يمكنك فعله
+- احتاج المساعدة
+- ساعدني
+- ساعدني من فضلك
 
 ## intent:problem_email
-- my outlook application won't open
-- I'm having issues with outlook.
-- issues with outlook
-- outlook application will not open
-- there's a problem with my email
-- something is broken with outlook
-- I can't log in to my email
-- can't log in to outlook
-- my email won't let me log in
-- i have a problem with my email
+- بريدي الالكتروني لا يعمل
+- لدي مشكلة في بريدي
+- عندي مشكلة في بريدي الالكتروني
+- لدي مشكلة في الايميل
+- لدي مشكلة في الايميل لا استطيع حلها
+- هناك خطأ في بريدي الالكتروني
+- لا يمكنني الدخول لبريدي الالكتروني
+- لا يمكنني الدخول على الايميل
+- ايميلي لا يعمل
+- عندي مشكلة في الايميل
 
 ## intent:inform
-- my email is test@example.com
-- my email is abraham.lincoln@example.com
-- abel.tuter@example.com
-- it is admin@example.com
-- aileen.mottern@example.com
-- [low](priority)
-- [medium](priority)
-- [high](priority)
-- it should be a [low](priority) priority
-- it should be [medium](priority)
-- [escalated]{"entity": "priority", "value": "high"}
-- [escalate]{"entity": "priority", "value": "high"}
-- [super high](priority)
+- ايميلي هو ahmed@example.com
+- بريدي الالكتروني هو ahmed@example.com
+- admin@example.com
+- ahmed@example.com
+- [منخفضة](priority)
+- [متوسطة](priority)
+- [عالية](priority)
+- يجب ان تكون [منخفضة](priority) اولوية
+- يجب ان تكون [متوسطة](priority)
+- [عالية جدا](priority)
 
 ## intent:out_of_scope
-- what is the square root of 5
-- I want to know the weather
-- what is the meaning of life.
-- Fridge Isn't Running
-- my tv isn't working
-- I want a pizza
-- my washing machine isn't working
-- what year is it
-- order a pizza
-- I want to order a pizza
-- what is the weather today
-- what is the weather
+- ما هو تربيع الرقم 5
+- كيف حال الطقس؟
+- ما هو تكعيب الرقم 6
+- لدي مشكلة في التلفاز
+- احتاج الدعم الفني
+- اريد بيتزا
+- غسالة الاطباق لا تعمل
+- ما تاريخ اليوم
+- اريد ان اكل البرغر
+- اتصل بوالدي
+- اطلب لي وجبة 
+- في يوم من الاسبوع نحن ؟
 
 ## intent:incident_status
 - I want to check if my ticket has been closed
