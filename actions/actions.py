@@ -164,7 +164,7 @@ class OpenIncidentForm(FormAction):
     ) -> Dict[Text, Any]:
         """Validate priority is a valid value."""
 
-        if value.lower() in snow.priority_db():
+        if value == "عالية" or "متوسطة" or "منخفضة":
             return {"priority": value}
         else:
             dispatcher.utter_message(template="utter_no_priority")
